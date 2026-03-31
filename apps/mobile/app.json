@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "TripMind",
+    "slug": "tripmind",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "tripmind",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tripmind.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#4F8EF7"
+      },
+      "package": "com.tripmind.app"
+    },
+    "plugins": ["expo-router"],
+    "extra": {
+      "supabaseUrl": "https://shhndttpmszdrksediqc.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNoaG5kdHRwbXN6ZHJrc2VkaXFjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ4ODg1MDUsImV4cCI6MjA5MDQ2NDUwNX0.qjfTN70-oEvMqG2C0ob_kvU5F4aAua94TuG_pYODakE",
+      "apiUrl": "http://localhost:8000"
+    }
+  }
+}
