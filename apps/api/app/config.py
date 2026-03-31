@@ -10,5 +10,4 @@ class Settings(BaseSettings):
     class Config:
         env_file = ".env"
 
-# Single instance used across the app
 settings = Settings()
